@@ -53,6 +53,11 @@ for windows user, you should
         docker build -t selenium:test .
         docker run [image id]
       
+## Add your test case
+* Add a new python file in cases folder, the file name should be better as you test logic
+* Add new class inherit from TestCases, the class name should same as the file name, just the first letter is capital
+* Add test method, the test method name should start with "test_"
+
 ## Python API Docs
 [You can get more information from here](http://selenium-python.readthedocs.io/)
     
